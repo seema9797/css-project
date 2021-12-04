@@ -1,0 +1,111 @@
+/*Begin here*/
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.dropbtn1 {
+    top: 789px;
+    left: 832px;
+    width: 200px;
+    height: 44px;
+    opacity: 1;
+    background: #00abe7 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.dropbtn1 i {
+    margin-left: 8px;
+}
+.dropbtn2 {
+    top: 789px;
+    left: 832px;
+    width: 200px;
+    height: 44px;
+    opacity: 1;
+    background: #00abe7 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.dropbtn2 i {
+    margin-left: 8px;
+}
+.dropbtn3 {
+    top: 789px;
+    left: 832px;
+    width: 200px;
+    height: 44px;
+    opacity: 1;
+    background: #7fd5f3 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.dropbtn3 i {
+    margin-left: 8px;
+}
+.dropbtn4 {
+    top: 789px;
+    left: 832px;
+    width: 200px;
+    height: 44px;
+    opacity: 1;
+    background: #0070b4 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.dropbtn4 i {
+    margin-left: 8px;
+}
+.dropbtn5 {
+    top: 789px;
+    left: 832px;
+    width: 200px;
+    height: 44px;
+    opacity: 1;
+    background: #bfeaf9 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.dropbtn5 i {
+    margin-left: 8px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    border-left: 3px solid rgb(29, 29, 145);
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(29, 29, 145);
+}
